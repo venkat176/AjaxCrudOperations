@@ -195,9 +195,9 @@ $(document).ready(function () {
 				} else {
 					swal("Delete cancelled,Your Item Is Safe", {
 						icon: "error"
-					});
-				}
-			});
+				});
+			}
+		});
 	});
 
 });
@@ -333,10 +333,8 @@ function GetValues() {
 
 					//addListItem('https://<SiteURL>','TestList',UserID)
 				});
-
 			},
-				function (sender, args) { alert("GetValues : " + args.get_message()); });
-
+		function (sender, args) { alert("GetValues : " + args.get_message()); });
 		});
 	});
 }
@@ -498,7 +496,7 @@ function updateListItem(UserId) {
 				alert('error');
 			}
 		});
-}
+    }
 
 function deleteListItem() {
 
