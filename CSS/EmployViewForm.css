@@ -1,0 +1,176 @@
+﻿/*.header{
+	
+	font-family:"Courier New", Courier, monospace;
+	width:1200px;
+	text-align:center;
+	background-color:#2F3C48;
+	margin: 0px auto;
+	margin-bottom:50px;
+	height:50px;
+	border-radius:8px;
+	
+}
+.header p{
+	color:#ffffff !important;
+	font-size:30px;
+	position:relative;
+	top:0px;
+}*/
+html, body {
+	max-width: 100%;
+    overflow-x: hidden;
+}
+.swal-button {
+  display:flex;
+  justify-content:center !important;
+  margin-right:35px;
+}
+
+h3{
+	font-weight:normal;
+	color:#CC0000;
+}
+
+.header{
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+label{
+	font-size:20px;
+	margin-right:30px;
+	width:185px;
+	position:relative;
+	top:5px;
+	font-size:22px;
+	font-variant:inherit;
+}
+.inputCls{
+	
+	border: 0px !important;
+	padding:0px;
+	font-size:18px;
+	height:45px;
+	width:280px;
+	background-color:#C5C5C5 !important;
+	color:#000000 !important;
+}
+.row{
+	margin-bottom:20px;
+}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-inner-spin-button{
+	-webkit-appearance:none;
+	margin:0;
+}
+/*.footer{
+	width:1200px;
+	text-align:center;
+	background-color:#2F3C48;
+	margin: 0px auto;
+	margin-top:50px;
+	height:50px;
+	border-radius:8px;
+}
+#footertext{
+	color:#ffffff;
+	font-family:"Courier New", Courier, monospace;
+	position:relative;
+	top:11px;
+}*/
+textarea {
+	resize:none;
+	overflow:hidden;
+}
+.grid{
+	padding-left:25px;
+}
+.container{
+	padding-top:10px !important;
+	background-color:#C5C5C5;
+	width:1200px;
+	justify-content:center !important;
+	padding:40px;
+	margin-top:50px;
+}
+
+button{	
+	width:150px;
+	border:0px;
+	margin-right:30px;
+}
+.bttn{
+	margin-top:70px;
+	display:flex;
+	justify-content:flex-end;
+}
+#Approved{
+	background-color:#CC0000;
+	border:2px solid #CC0000!important;
+	color:#ffffff;
+	
+}
+#Rejected{
+	background-color:#CC0000;
+	border:2px solid #CC0000!important;
+	color:#ffffff;
+	
+}
+#Exit{
+	background-color:#CC0000;
+	border:2px solid #CC0000!important;
+	color:#ffffff;
+		
+}
+#Cancel{
+	background-color:#CC0000;
+	border:2px solid #CC0000!important;
+	color:#ffffff;
+}
+#Approved:hover{
+	background-color:#ffffff;
+	border:2px solid #689F00!important;
+	color:#689F00;
+
+}
+#Rejected:hover{
+	background-color:#ffffff;
+	border:2px solid #FF132A!important;
+	color:#FF132A;
+	
+}
+#Cancel:hover{
+	background-color:#ffffff;
+	border:2px solid #FF132A!important;
+	color:#FF132A;
+	
+}
+#Exit:hover{
+	background-color:#ffffff;
+	border:2px solid #FF132A!important;
+	color:#FF132A;
+	
+}
+#Phoneid{
+	font-size:20px;
+	margin-top:3px;
+}
+#Addressid{
+	font-size:20px;
+	width:253px !important;
+	clear:left;
+	position:relative;
+	left:228px;
+	top:-33px
+}
+#addleft{
+	clear:right;
+}
+.ui-datepicker {
+    background: #2F3C48;
+    border: 1px solid #FF132A;
+    color: #ffffff;
+}
+#Usernameid{
+	color:#000000;
+	background-color:#F6F6F6;
+}
